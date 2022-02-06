@@ -1,41 +1,104 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="21.661">
-    <testcase classname="Google_Search_Functionality" name="TC01_iphone_search" time="6.846">
-        <failure message="" type="java.lang.AssertionError">
-            <![CDATA[Given user is on the google page............................................passed
-When user search for iPhone on google.......................................passed
-Then verify the result has iPhone related results...........................failed
-Then capture the screenshot.................................................skipped
-Then close the application..................................................skipped
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at stepdefinitions.GoogleStepDefs.verify_the_result_has_i_phone_related_results(GoogleStepDefs.java:31)
-	at ✽.verify the result has iPhone related results(file:///Users/mujohidkahhori/IdeaProjects/mycucumberproject/./src/test/resources/features/firstfeaturefile.feature:24)
-]]>
-        </failure>
-    </testcase>
-    <testcase classname="Google_Search_Functionality" name="TC02_teapot_search" time="7.327">
-        <system-out>
-            <![CDATA[Given user is on the google page............................................passed
-When user search for Tea Pot on google......................................passed
-Then verify the result has Tea Pot related results..........................passed
-Then capture the screenshot.................................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="143.995">
+    <testcase classname="employee_login" name="login_with_employee_credentials" time="21.465">
+        <system-out><![CDATA[Given user is on the login page.............................................passed
+And user clicks on login dropdown...........................................passed
+And user clicks on sign in button...........................................passed
+And user sends username "gino.wintheiser"...................................passed
+And user sends password "%B6B*q1!TH"........................................passed
+And user clicks on the login button.........................................passed
 Then close the application..................................................passed
-]]>
-        </system-out>
+]]></system-out>
     </testcase>
-    <testcase classname="Google_Search_Functionality" name="TC03_flower_search" time="7.339">
-        <system-out>
-            <![CDATA[Given user is on the google page............................................passed
-When user search for flower on google.......................................passed
-Then verify the result has flower related results...........................passed
-Then capture the screenshot.................................................passed
+    <testcase classname="employee_login" name="login_with_employee_credentials_2" time="12.789">
+        <system-out><![CDATA[Given user is on the login page.............................................passed
+And user clicks on login dropdown...........................................passed
+And user clicks on sign in button...........................................passed
+And user sends username "dallas.batz".......................................passed
+And user sends password "dOWjuXz8*es6"......................................passed
+And user clicks on the login button.........................................passed
 Then close the application..................................................passed
-]]>
-        </system-out>
+]]></system-out>
+    </testcase>
+    <testcase classname="employee_login" name="login_with_employee_credentials_3" time="17.635">
+        <system-out><![CDATA[Given user is on the login page.............................................passed
+And user clicks on login dropdown...........................................passed
+And user clicks on sign in button...........................................passed
+And user sends username "leonel.skiles".....................................passed
+And user sends password "x3uvY0f8hw1T"......................................passed
+And user clicks on the login button.........................................passed
+Then close the application..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="employee_login" name="login_with_employee_credentials_4" time="12.991">
+        <system-out><![CDATA[Given user is on the login page.............................................passed
+And user clicks on login dropdown...........................................passed
+And user clicks on sign in button...........................................passed
+And user sends username "freddy.veum".......................................passed
+And user sends password "*f**3dafHW3Jx".....................................passed
+And user clicks on the login button.........................................passed
+Then close the application..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="employee_login" name="login_with_employee_credentials_5" time="21.015">
+        <system-out><![CDATA[Given user is on the login page.............................................passed
+And user clicks on login dropdown...........................................passed
+And user clicks on sign in button...........................................passed
+And user sends username "syble.jerde".......................................passed
+And user sends password "2*0R*!K&GB3T%G"....................................passed
+And user clicks on the login button.........................................passed
+Then close the application..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="employee_login" name="login_with_employee_credentials_6" time="20.053">
+        <system-out><![CDATA[Given user is on the login page.............................................passed
+And user clicks on login dropdown...........................................passed
+And user clicks on sign in button...........................................passed
+And user sends username "julius.keebler"....................................passed
+And user sends password "F&134#R%0d"........................................passed
+And user clicks on the login button.........................................passed
+Then close the application..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="money transfer feature" name="login_with_customer_credentials" time="10.701">
+        <system-out><![CDATA[Given user is on the login page.............................................passed
+And user clicks on login dropdown...........................................passed
+And user clicks on sign in button...........................................passed
+And user sends username "shaylee.lindgren"..................................passed
+And user sends password "mVSk$eq1YoZwq".....................................passed
+And user clicks on the login button.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="money transfer feature" name="user_should_make_money_transfer" time="3.878">
+        <system-out><![CDATA[Given user clicks on my operations..........................................passed
+And user clicks on transfer money...........................................passed
+When user select the current account to transfer money from.................passed
+And user select the other account to transfer money to......................passed
+When user provides the balance "3"..........................................passed
+And user types the description..............................................passed
+Then user makes the money transfer and verify success message...............passed
+Then close the application..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="registration feature" name="user should be able to register" time="11.581">
+        <system-out><![CDATA[Given user is on the registration page......................................passed
+And user enters ssn number as "123-45-0369".................................passed
+And user enters firstname as "New User" and lastname as "last"..............passed
+And user provides address "Milky way".......................................passed
+And user provides phoneNumber "456-279-5588"................................passed
+And user provides username "utilisateur"....................................passed
+And user provides email "kalin54@gmail.com".................................passed
+And user provides the firstPassword as "Utilisateur123." and secondPassword as "Utilisateur123.".passed
+Then user clicks on the register button and see the success message as "successfully registered".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="admin login feature" name="login_with_employee_credentials" time="11.64">
+        <system-out><![CDATA[Given user is on the login page.............................................passed
+And user clicks on login dropdown...........................................passed
+And user clicks on sign in button...........................................passed
+And user enters admin_id and admin_password.................................passed
+And user clicks on the login button.........................................passed
+Then verify the login is successful.........................................passed
+]]></system-out>
     </testcase>
 </testsuite>
