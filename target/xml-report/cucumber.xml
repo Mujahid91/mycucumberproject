@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="21.661">
+    <testcase classname="Google_Search_Functionality" name="TC01_iphone_search" time="6.846">
+        <failure message="" type="java.lang.AssertionError">
+            <![CDATA[Given user is on the google page............................................passed
+When user search for iPhone on google.......................................passed
+Then verify the result has iPhone related results...........................failed
+Then capture the screenshot.................................................skipped
+Then close the application..................................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.GoogleStepDefs.verify_the_result_has_i_phone_related_results(GoogleStepDefs.java:31)
+	at ✽.verify the result has iPhone related results(file:///Users/mujohidkahhori/IdeaProjects/mycucumberproject/./src/test/resources/features/firstfeaturefile.feature:24)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Google_Search_Functionality" name="TC02_teapot_search" time="7.327">
+        <system-out>
+            <![CDATA[Given user is on the google page............................................passed
+When user search for Tea Pot on google......................................passed
+Then verify the result has Tea Pot related results..........................passed
+Then capture the screenshot.................................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Google_Search_Functionality" name="TC03_flower_search" time="7.339">
+        <system-out>
+            <![CDATA[Given user is on the google page............................................passed
+When user search for flower on google.......................................passed
+Then verify the result has flower related results...........................passed
+Then capture the screenshot.................................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
