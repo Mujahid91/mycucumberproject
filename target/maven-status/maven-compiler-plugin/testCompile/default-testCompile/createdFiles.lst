@@ -14,12 +14,15 @@ pages/GooglePage.class
 runners/FailedScenarioRunner.class
 utilities/ReusableMethods$1.class
 utilities/Driver$1.class
+runners/DBRunner.class
 stepdefinitions/LoginStepDefs.class
+utilities/DBUtils.class
 utilities/Driver.class
 stepdefinitions/ExcelStepDefs.class
 pages/CommonPageElements.class
 utilities/ConfigurationReader.class
 stepdefinitions/MoneyTransferStepDefs.class
+stepdefinitions/DatabaseStepDefs.class
 pages/LoginPage.class
 utilities/ReusableMethods$2.class
 utilities/ExcelUtil.class
