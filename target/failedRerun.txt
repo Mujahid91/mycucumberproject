@@ -1,2 +1,0 @@
-file:src/test/resources/features/day21_admin_login.feature:4
-file:src/test/resources/features/day20_user_money_transfer.feature:13
